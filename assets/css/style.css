@@ -1,0 +1,84 @@
+/* Configurações globais */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+}
+
+/* Classes globais */
+
+.conteiner {
+    width: 1140px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+
+/* Menu navegação */
+
+header {
+    height: 150px;
+    background-color: #FFF;
+}
+
+#menu-logo{
+    width: 15%;
+    height: 120px;
+    align-items: center;
+}
+
+#menu-nav{
+    width: 65%;
+    height: 120px;
+}
+
+#menu-botao{
+    width: 20%;
+    height: 120px;
+    align-items: center;
+    justify-content: end;
+}
+
+#menu-nav {
+    align-items: center;
+    justify-content: center;
+}
+
+#menu-nav a {
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+#menu-nav a:hover {
+    color: #8CC63F;
+}
+
+#menu-nav a.selecionado {
+    color: #8CC63F;
+}
+
+#menu-botao button {
+    width: 145px;
+    height: 45px;
+    background-color: #8CC63F;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    color: #FFF;
+} 
