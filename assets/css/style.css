@@ -1,5 +1,9 @@
 /* Configurações globais */
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -7,6 +11,9 @@
 body {
     background-color: blue;
 }
+
+/*-----------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------*/
 
 /* Classes globais */
 
@@ -19,7 +26,8 @@ body {
     display: flex;
 }
 
-
+/*-----------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------*/
 /* Menu navegação */
 
 header {
@@ -76,9 +84,72 @@ header {
     border: none;
     border-radius: 10px;
     
-    font-family: "Poppins", Sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 15px;
     font-weight: 600;
     letter-spacing: 0.4px;
     color: #FFF;
 } 
+
+/*-----------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------*/
+/* SECTION FORMULÁRIO */
+
+#section-form {
+    /*background-image: url('/assets/images/frutas.jpg');
+    background-repeat: no-repeat;
+    background-position: center;*/
+    height: 835px;
+    background: #8CC63F url('/assets/images/frutas.jpg') no-repeat center;
+    background-size: cover;
+}
+
+#form-ambos {
+    justify-content: center; /* eixo horizontal (x) = main axis*/
+    align-items: center; /* eixo vertical (y) cross axis*/
+}
+
+
+#section-form-left {
+    width: 725px;
+    height: 735px;
+}
+
+#section-form--texto {
+    font-family: "Poppins", sans-serif;
+    font-size: 75px;
+    color: #FFF;
+    font-weight: bold;
+    width: 705px;
+    height: 585px;
+}
+
+
+#botao-play {
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 50%;
+    background-color: #8CC63F;
+
+}
+
+#section-form-right {
+    width: 405px;
+    height: 440px;
+    background-color: aqua;
+}
+
+#h2-form {
+    background-color: #8CC63F;
+    height: 200;
+}
+
+#form-inputs {
+    flex-direction: column;
+}
+
+.tamanho-input {
+    width: 335px;
+    height: 38px;
+}
