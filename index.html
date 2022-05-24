@@ -47,31 +47,41 @@
     <!-- Section Formulário -->
     <section id="section-form">
         <div id="form-ambos" class="conteiner flex"> 
-            <div id="section-form-left">
-                <div id="section-form--texto">
-                    Já pensou em ter um parceiro que promova hábitos saudáveis no ambiente corporativo?
-                </div>
-                <div id="section-form--botao">
-                    <button id="botao-play"></button>
-                </div>
+            <div id="section-form-left" class="flex">
+                <h2>Já pensou em ter um parceiro que promova hábitos saudáveis no ambiente corporativo?</h2>
             </div>
             <div id="section-form-right">
                 <div id="section-form--formulario">
                     <form>
-                        <div id="h2-form">
+                        <div id="form-header" class="flex">
                             <h2>Envie um e-mail</h2>
                             <p>Que a gente entra em contato com você</p>
                         </div>
                         <div id="form-inputs" class="flex">
-                            <input type="text" class="tamanho-input">
-                            <input type="text" class="tamanho-input">
-                            <input type="button" value="Enviar">
+                            <input type="text" placeholder="Nome" class="tamanho-input" required>
+                            <input type="tel" placeholder="Telefone" class="tamanho-input" required> 
+                            <input type="submit" value="Enviar" id="form-button">
                         </div>
                     </form>
                 </div>
             </div>  
         </div>
     </section>
+    <!-- Section "O Que Fazemos" --> 
+    <section id="oQueFazemos">
+        <div class="conteiner flex">
+            <div id="fazemos-left" class="flex">
+                <h1>O que fazemos ?</h1>
+                <p>A Hora da fruta promove os hábitos saudáveis e as relações leves no ambiente corporativo. Fornecemos regularmente, frutas higienizadas e snacks saudáveis, para o ambiente corporativo.</p>
+                <p>Podemos montar um plano de fornecimento exclusivo ou até mesmo um evento saudável.</p>
+                <p>Entre em contato e vamos juntos criar a melhor configuração para que todos possam desfrutar de hábitos saudáveis!</p>
+                <a href=""><div>Saiba mais</div></a>
+            </div>
+            <div id="fazemos-right" class="flex">
+                <img src="/assets/images/frutas-office.jpg">
+            </div>
+        </div>
+    </section>   
 
 
 
@@ -85,10 +95,6 @@
 </html>
 
 <!--
-
-    <div id="formulario" class="conteiner teste">
-
-    </div>
 
     <div id="oQueFazemos" class="conteiner teste">
 
